@@ -1,0 +1,64 @@
+/* Styling for the body including background image */
+body {
+    background: url(space\ in.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Styling for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling for the container of images */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+/* Styling for images */
+.image-container img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+/* Styling for the title */
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 800;
+    color: white;
+}
+
+/* Styling for paragraphs */
+p {
+    color: white;
+    text-align: center;
+    margin: 80px,0;
+}
+
+/* Styling for links within paragraphs */
+.image-credit a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for hover effect on links within paragraphs */
+.image-credit a:hover {
+    text-decoration: underline;
+}
+
+/* Hover effect for images */
+.image-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}

@@ -1,0 +1,71 @@
+/* Setting the font family and background color for the entire document */
+body {
+    font-family: Arial, sans-serif; /* Choosing Arial font with fallback to sans-serif */
+    background-color: #3f3e3e; /* Setting a dark gray background color */
+}
+
+/* Styling for the container element */
+#container {
+    max-width: 600px; /* Limiting the maximum width of the container */
+    margin: 50px auto; /* Centering the container horizontally with some top margin */
+    padding: 20px; /* Adding padding inside the container */
+    background-color: #fff; /* Setting a white background color for the container */
+    border-radius: 10px; /* Rounding the corners of the container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow effect */
+    text-align: center; /* Centering text content inside the container */
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #333; /* Setting the color of the main heading to a dark gray */
+}
+
+/* Styling for the RGB value display */
+#rgbValue {
+    margin-top: 30px; /* Adding top margin to the RGB value display */
+    font-size: 24px; /* Setting a larger font size for better visibility */
+}
+
+/* Styling for the color options */
+#colorOptions {
+    display: flex; /* Using flexbox to align color options horizontally */
+    justify-content: center; /* Centering color options horizontally */
+    margin-top: 20px; /* Adding top margin to the color options */
+}
+
+/* Styling for individual color options */
+.option {
+    width: 100px; /* Setting a fixed width for each color option */
+    height: 100px; /* Setting a fixed height for each color option */
+    margin: 0 10px; /* Adding margin around each color option */
+    cursor: pointer; /* Changing cursor to pointer on hover to indicate interactivity */
+}
+
+/* Styling for the message display */
+#message {
+    margin-top: 20px; /* Adding top margin to the message display */
+    font-size: 18px; /* Setting font size for the message */
+    font-weight: bold; /* Making the message bold for emphasis */
+}
+
+/* Styling for the score display */
+#score {
+    margin-top: 20px; /* Adding top margin to the score display */
+    font-size: 18px; /* Setting font size for the score */
+}
+
+/* Styling for the restart button */
+#restartButton {
+    margin-top: 20px; /* Adding top margin to the restart button */
+    padding: 10px 20px; /* Adding padding to the restart button */
+    background-color: #4CAF50; /* Setting a green background color for the restart button */
+    color: white; /* Setting text color to white */
+    border: none; /* Removing border */
+    border-radius: 5px; /* Rounding the corners of the restart button */
+    cursor: pointer; /* Changing cursor to pointer on hover to indicate interactivity */
+}
+
+/* Styling for the restart button on hover */
+#restartButton:hover {
+    background-color: #45a049; /* Changing background color on hover for visual feedback */
+}

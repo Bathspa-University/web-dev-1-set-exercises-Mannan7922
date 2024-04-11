@@ -1,0 +1,112 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container styling */
+.container {
+    background: #8b925a; /* Background color */
+    width: 100%; /* Full width */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Align the content to the top */
+    padding-top: 20px; /* Add some padding to the top */
+}
+
+/* Navigation bar styling */
+nav {
+    background: #c0bc64; /* Background color */
+    border-radius: 10px; /* Border radius */
+    padding: 10px; /* Padding */
+    box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.4); /* Box shadow */
+}
+
+/* Unordered list styling */
+nav ul {
+    list-style: none; /* Remove list bullets */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    padding: 13px 35px;
+    color: #e8e1e1;
+}
+
+
+/* List item (nav links) styling */
+nav ul li {
+    display: inline-block; /* Display horizontally */
+    padding: 13px 35px; /* Padding */
+    margin: 5px; /* Margin */
+    font-size: 15px; /* Font size */
+    font-weight: 500; /* Font weight */
+    color: #717171; /* Text color */
+    cursor: pointer; /* Cursor pointer */
+    position: relative; /* Position relative */
+    z-index: 2; /* Z-index */
+    transition: color 0.5s; /* Transition effect */
+}
+
+/* List item hover effect */
+nav ul li:hover {
+    color: #b79256; /* Change text color on hover */
+}
+
+/* List item hover effect after element */
+nav ul li::after {
+    content: ''; /* Empty content */
+    background: #a06e34; /* Background color */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    border-radius: 30px; /* Border radius */
+    position: absolute; /* Position absolute */
+    top: 100%; /* Move to bottom of list item */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center vertically */
+    z-index: -1; /* Behind the list item */
+    opacity: 0; /* Initially hidden */
+    transition: top 0.5s, opacity 0.5s; /* Transition effect */
+}
+
+/* List item hover effect after element */
+nav ul li:hover::after {
+    top: 50%; /* Move to center of list item */
+    opacity: 1; /* Show on hover */
+}
+
+/* Center alignment */
+.center {
+    text-align: center; /* Center text */
+    margin-top: 6%; /* Adjust margin as needed */
+}
+
+/* Body background image */
+body {
+    background: url(gravity.jpg); /* Background image */
+    background-repeat: no-repeat; /* No repeat */
+    background-position: center; /* Center position */
+    background-attachment: fixed; /* Fixed position */
+    background-size: cover; /* Cover */
+    background-color: rgba(0, 0, 0, 0.4); /* Background color with opacity */
+}
+
+/* Header styling */
+h1 {
+    color: azure; /* Text color */
+    font-size: 40px; /* Font size */
+    text-align: center; /* Center text */
+    margin-top: 5%; /* Top margin */
+}
+
+/* Paragraph and list item styling */
+p, li {
+    color: azure; /* Text color */
+    text-align: center; /* Center text */
+    font-size: 20px; /* Font size */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 800px; /* Maximum width */
+    margin-top: 2%; /* Top margin */
+}

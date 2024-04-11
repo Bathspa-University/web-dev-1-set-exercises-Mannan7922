@@ -1,0 +1,45 @@
+<!-- Document type declaration and language -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata for character set and responsive viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Linking to an external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Title of the webpage -->
+  <title>Petrol Calculator</title>
+</head>
+<body>
+  <!-- Container for the entire content -->
+  <div class="container">
+    <!-- Logo and heading section -->
+    <div class="logo">
+      <!-- Petrol logo image -->
+      <img src="petrol logo.png" alt="Petrol Icon">
+      <!-- Main heading -->
+      <h1>Petrol Calculator</h1>
+    </div>
+    <!-- Input group for petrol cost -->
+    <div class="input-group">
+      <!-- Label for petrol cost input -->
+      <label for="petrolCost">Cost per liter:</label>
+      <!-- Input field for entering petrol cost per liter -->
+      <input type="number" id="petrolCost" step="0.01" value="1.72">
+    </div>
+    <!-- Input group for liters purchased -->
+    <div class="input-group">
+      <!-- Label for liters input -->
+      <label for="liters">Liters purchased:</label>
+      <!-- Input field for entering liters of petrol purchased -->
+      <input type="number" id="liters" step="0.01" value="0">
+    </div>
+    <!-- Button to trigger calculation -->
+    <button id="calculateButton">Calculate</button>
+    <!-- Paragraph to display total cost -->
+    <p id="totalCost"></p>
+  </div>
+  <!-- Linking to the JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

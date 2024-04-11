@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: 	#95553b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 40px; /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px; /* Increased margin */
+  }
+  
+  .logo img {
+    width: 100px; /* Increased image size */
+    height: 100px; /* Increased image size */
+    margin-right: 20px; /* Increased margin */
+  }
+  
+  h1 {
+    margin-bottom: 20px; /* Increased margin */
+    color: #1e5474; /* Petrol Blue */
+  }
+  
+  .input-group {
+    margin-bottom: 30px; /* Increased margin */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin */
+    color: #1e5474; /* Petrol Blue */
+  }
+  
+  input[type="number"] {
+    width: 150px; /* Increased input field width */
+    padding: 10px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #6cb2eb; /* Light Petrol Blue */
+  }
+  
+  button {
+    padding: 12px 24px; /* Increased padding */
+    background-color: #4CAF50; /* Petrol Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker Petrol Green */
+  }
+  
+  #totalCost {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e5474; /* Petrol Yellow */
+  }
